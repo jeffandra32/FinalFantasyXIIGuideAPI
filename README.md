@@ -1,2 +1,2 @@
-# app-fullstack-api-adonisjs
-Api para uma aplicação de cadastro com Posters sobre Tecnologia.
+# app-finalfantasyxiitza-api-adonisjs
+Api para um guia do game Final Fantasy XII The Zodiac Age.
