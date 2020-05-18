@@ -16,11 +16,8 @@ Route.post('/v1/reset', 'ResetPasswordController.store').validator('Reset');
 // User
 Route.resource('/v1/users', 'UserController').apiOnly().middleware('auth');
 
-// Post
-Route.resource('/v1/posts', 'PostController').apiOnly().middleware('auth');
-
-// Relationship
-Route.resource('/v1/relationship', 'RelationshipController').apiOnly().middleware('auth');
+// Weapons
+Route.resource('/v1/weapons', 'WeaponController').apiOnly().middleware('auth');
 
 // Profile
 Route.put('/v1/profile', 'ProfileController.update').middleware('auth');
