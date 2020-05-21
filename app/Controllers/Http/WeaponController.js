@@ -12,6 +12,7 @@ class WeaponController {
   async store({ request, response }) {
     const data = request.only([
       'name',
+      'type',
       'attack',
       'evade',
       'combo',

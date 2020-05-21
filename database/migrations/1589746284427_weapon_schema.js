@@ -8,6 +8,7 @@ class WeaponSchema extends Schema {
     this.create('weapons', (table) => {
       table.increments()
       table.string('name', 30).notNullable()
+      table.string('type', 30).notNullable()
       table.integer('attack', 30).notNullable()
       table.integer('evade', 30).notNullable()
       table.string('combo', 30).notNullable()

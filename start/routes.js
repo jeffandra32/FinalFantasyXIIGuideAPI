@@ -19,6 +19,9 @@ Route.resource('/v1/users', 'UserController').apiOnly().middleware('auth');
 // Weapons
 Route.resource('/v1/weapons', 'WeaponController').apiOnly().middleware('auth');
 
+// Esper
+Route.resource('/v1/espers', 'EsperController').apiOnly().middleware('auth');
+
 // Profile
 Route.put('/v1/profile', 'ProfileController.update').middleware('auth');
 
