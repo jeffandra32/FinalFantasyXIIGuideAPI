@@ -19,7 +19,7 @@ class EsperController {
       'steal',
       'description',
       'location',
-      'locked-license',
+      'lockedlicense',
       'avatar',
     ]);
 

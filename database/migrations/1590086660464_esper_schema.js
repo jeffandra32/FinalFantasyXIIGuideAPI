@@ -14,7 +14,7 @@ class EsperSchema extends Schema {
       table.string('steal', 255)
       table.text('description')
       table.text('location')
-      table.text('locked-license')
+      table.text('lockedlicense')
       table.string('avatar')
       table.timestamps()
     })
